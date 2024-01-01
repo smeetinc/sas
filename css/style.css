@@ -1,0 +1,44 @@
+section {
+  padding: 60px 0;
+}
+#hero {
+  padding-top: 80px;
+}
+.about-us {
+  height: fit-content;
+  background-image: url(../images/about-bg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 140px 0px 200px 0px;
+}
+
+.testimonials-img {
+  width: 200px;
+  border-radius: 50%;
+  border-width: 4px;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+  border-image: initial;
+  margin: 0px auto;
+  vertical-align: middle;
+}
+.project-card {
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+.project-card:hover {
+  transform: scale(1.1);
+  z-index: 10;
+}
+
+@media only screen and (max-width: 1024px) {
+  .about-us {
+    background-color: #ff324e;
+    padding-bottom: 50px;
+  }
+  .about-us img {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
