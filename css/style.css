@@ -32,6 +32,14 @@ section {
   z-index: 10;
 }
 
+.navbar-nav .nav-link.active {
+  color: #ff3542 !important;
+  font-weight: 700;
+}
+.special-red {
+  color: #ff3542;
+}
+
 @media only screen and (max-width: 1024px) {
   .about-us {
     background-color: #ff324e;

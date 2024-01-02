@@ -27,7 +27,7 @@
       >
         <div class="container-xxl">
           <a href="#hero" class="navbar-brand">
-            <span class="fw-bold text-secondary">Shonibare Sulaimon</span>
+            <p class="fw-bold text-secondary">Shonibare <span class="special-red">Sulaimon</span></p>
           </a>
           <!----Mobile nav-->
           <button
@@ -136,34 +136,15 @@
                   />
                 </div>
               </div>
-              <div class="col-lg-8 text-white">
+              <div class="col-lg-8 text-white align-self-center">
                 <p>Get To Know</p>
                 <h3>About Me</h3>
                 <div>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Iusto incidunt facere aut unde dolorem neque quia in sequi
-                    perspiciatis totam ut exercitationem ex modi consequuntur,
-                    necessitatibus praesentium tenetur tempore veritatis nihil
-                    ea. Fugit voluptatum laboriosam porro ipsum iure error
-                    debitis.
+                    Shonibare Sulaimon, a Nigerian currently based in Poland. A student at university of Szczecin, Poland and currently working as a customer support agent for a popular Budget friendly European based airline (Ryanair). Like watching and playing football, surfing web, and traveling. A data scientist enthusiast and lover of anything technology especially smartphones, laptop, and smart wares.
+
                   </p>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Iusto incidunt facere aut unde dolorem neque quia in sequi
-                    perspiciatis totam ut exercitationem ex modi consequuntur,
-                    necessitatibus praesentium tenetur tempore veritatis nihil
-                    ea. Fugit voluptatum laboriosam porro ipsum iure error
-                    debitis.
-                  </p>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Iusto incidunt facere aut unde dolorem neque quia in sequi
-                    perspiciatis totam ut exercitationem ex modi consequuntur,
-                    necessitatibus praesentium tenetur tempore veritatis nihil
-                    ea. Fugit voluptatum laboriosam porro ipsum iure error
-                    debitis.
-                  </p>
+                  
                 </div>
               </div>
             </div>
@@ -419,42 +400,34 @@
             <div class="row justify-content-center my-5">
                 <div class="col-lg-6">
                     <div>
+                        <form  action="https://getform.io/f/75857993-c442-4ba9-bc76-d4c63398967c"
+                        method="POST">
                         <label for="email" class="form-label">Email address:</label>
                         <div class="mb-4 input-group">
                             <span class="input-group-text">
-                                <i class="bi bi-envelope-fill"></i>                                
+                                <i class="fas fa-at"></i>                                
                             </span>
                             <input type="email" id="email" name="contact_email" class="form-control"
-                                placeholder="e.g. example@examples.com">
+                                placeholder="e.g. example@examples.com" required>
                         </div>
                         <label for="name" class="form-label">Name:</label>
                         <div class="mb-4 input-group">
                             <span class="input-group-text">
-                            <i class="bi bi-person-fill"></i>
+                                <i class="fas fa-user"></i>
                             </span>
-                            <input type="text" id="name" name="contact_name" class="form-control" placeholder="e.g. Victoria">
+                            <input type="text" id="name" name="contact_name" class="form-control" placeholder="e.g. Victoria" required>
                         </div>
-                        <label for="subject" class="form-label">What is your question about?</label>
-                        <div class="mb-4 input-group">
-                            <span class="input-group-text">
-                                <i class="bi bi-chat-right-dots-fill"></i>
-                            </span>
-                            <select class="form-select" id="subject" name="contact_subject">
-                                <option value="pricing" selected>Pricing</option>
-                                <option value="technical">Technical assistance</option>
-                                <option value="general">General Enquiry</option>
-                            </select>
-                        </div>
+                       
 
                         <div class="form-floating mb-4 mt-5">
-                            <textarea name="contact_msg" id="message" class="form-control" style="height: 140px"></textarea>
+                            <textarea name="contact_msg" id="message" class="form-control" style="height: 140px" required></textarea>
                             <label for="message">Your Message...</label>
                         </div>
                         <div class="mb-4 text-center">
-                            <button class="btn btn-secondary" onclick="sendMail()">Send Message</button>
+                            <button class="btn btn-secondary" type="submit">Send Message</button>
                         </div>
-                        <div class="text-center">
-                        <p class="form-message fw-bold"></p>
+                        
+                        </form>
                         </div>
     </main>
     <!--Footer-->
@@ -462,23 +435,19 @@
     <footer class="container-fluid bg-dark text-light p-3">
 
         <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-6">
                 <div class="footer-contact">
                     <a href="#hero" class="navbar-brand">
                         <span class="fw-bold text-secondary">Shonibare Sulaimon</span>
                       </a>
                     <p class="h5">Contact</p>
-                    
-                    <p><span class="fw-bold">Phone: </span> +23481788573884 </p>
+                    <p><span class="fw-bold">Address: </span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Eaque pariatur, qui quia quas ad laboriosam. </p>
+                    <p><span class="fw-bold">Phone: </span> +xxx - xxx - xxx/p>
                     <p><span class="fw-bold">Operating Hours: </span> 24/7 </p>
     
-                    <p class="h5">Follow us</p>
+                    
     
-                    <ul class=" d-flex list-inline list-unstyled">
-                        <li class="me-2"><a href="https://www.instagram.com/ratedpleasure_" target="_blank"><i class="bi bi-instagram"></a></i></li>
-                        <li class="me-2"><a href="https://api.whatsapp.com/send/?phone=2348178573884&text=Hello%20I%20was%20redirected%20from%20your%20website(ratedpleasure.com),%20please%20I%20will%20like%20to...&app_absent=0" target="_blank"><i class="bi bi-whatsapp"></a></i></li>
-                        
-                    </ul>
+                 
     
     
                 </div>
@@ -488,34 +457,31 @@
                     <p class="h5">Quick Links</p>
     
                     <ul class="text-light list-unstyled">
-                        <li><a class="nav-link" href="about_us.php">About Us</a></li>
-                        <li><a class="nav-link" href="delivery_info.php">Delivery Information</a></li>
-                        <li><a class="nav-link" href="privacy_policy.php">Privacy Policy</a></li>
-                        <li><a class="nav-link" href="terms.php">Terms & Conditions</a></li>
-                        <li><a href="contact.php" class="nav-link">Contact Us</a></li>
+                        <li><a class="nav-link" href="#about">About Me</a></li>
+                        
+                        <li><a class="nav-link" href="https://www.freeprivacypolicy.com/live/8f427a5f-0b24-42e9-92a1-ba22863750c2">Privacy Policy</a></li>
+                        <li><a class="nav-link" href="https://www.freeprivacypolicy.com/live/f6dbf682-ef9e-46e4-b9fd-441db4ff1e2c">Cookies Policy</a></li>
+                        <li><a class="nav-link" href="https://www.freeprivacypolicy.com/live/c3663d3b-c5c8-412f-b669-6fe7b677d487">Terms & Conditions</a></li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
                     </ul>
                 </div>
             </div>
-            <div class="col-sm-6 col-lg-2">
+            <div class="col-sm-6 col-lg-4">
                 <div>
-                    <p class="h5">My Account</p>
+                    <p class="h5 text-end me-4">Social Links</p>
     
-                    <ul class="text-light list-unstyled">
-                        <li>
+                    <ul class="text-light list-unstyled d-flex flex-row-reverse pe-4">
+                        
                        
-                        <li><a class="nav-link" href="cart.php">View Cart</a></li>
-                        <!-- <li>Track My Order</li> -->
-                        <li><a class="nav-link" href="help_center.php">Help</a></li>
+                        <li><a class="nav-link" href="https://github.com/Yomexshow92/webdesign"><i class="fab fa-github text-light me-2"></i></a></li>
+                        
+                        <li><a class="nav-link" href="https://www.facebook.com/YomexShow92"><i class="fab fa-facebook text-light me-2"></i></a></li>
+                        <li><a class="nav-link" href="https://twitter.com/yomexshow92"><i class="fab fa-twitter text-light me-2"></i></a></li>
                         
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-4">
-                <div>
-                    <img src="img/cardspaystack.png" class="footer-img" alt="supported payments by Paystack">
-    
-                </div>
-            </div>
+            
         </div>
     
         <p class="text-center"><small>&copy; 2024 | All rights reserved.</small></p>
