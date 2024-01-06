@@ -10,6 +10,7 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./css/aos.css" /> 
 
     <link
       rel="stylesheet"
@@ -17,6 +18,7 @@
     />
 
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/blob.css" />
   </head>
   <body>
     <!--Header-->
@@ -76,7 +78,7 @@
       <section id="hero">
         <div class="container-lg">
           <div class="row justify-content-center align-items-center">
-            <div class="col-md-5 text-center text-md-start">
+            <div class="col-md-5 text-center text-md-start" data-aos="fade-up">
               <h1>
                 <div class="display-2">Shonibare Sulaimon</div>
                 <div class="display-5 text-muted">
@@ -92,19 +94,15 @@
                   >Contact Me</a
                 >
                 <a
-                  href="/resume.pdf"
+                  href="Sulaimon_Shonibare_Europass.pdf"
                   target="_blank"
                   class="btn btn-secondary btn-lg"
                   >Resume</a
                 >
               </div>
             </div>
-            <div class="col-md-5 text-center d-none d-md-block">
-              <img
-                src="images/me.png"
-                alt="Me"
-                class="img-fluid rounded shadow"
-              />
+            <div class="col-md-5 text-center d-none d-md-block" data-aos="fade-left" data-aos-delay="600">
+              <div class="blob border border-secondary"></div>
             </div>
           </div>
         </div>
@@ -117,26 +115,16 @@
               <div class="col-lg-4">
                 <div
                   class="left-image wow fadeIn animated text-center"
-                  data-wow-duration="1s"
-                  data-wow-delay="0.2s"
-                  style="
-                    visibility: visible;
-                    -webkit-animation-duration: 1s;
-                    -moz-animation-duration: 1s;
-                    animation-duration: 1s;
-                    -webkit-animation-delay: 0.2s;
-                    -moz-animation-delay: 0.2s;
-                    animation-delay: 0.2s;
-                  "
+                  data-aos="fade-right"
                 >
                   <img
-                    src="images/about-left-image.png"
-                    alt="person graphic"
-                    class="img-fluid"
+                    src="images/me2.jpg"
+                    alt="Shonibare Sulaimon"
+                    class="img-fluid thumbnail rounded shadow"
                   />
                 </div>
               </div>
-              <div class="col-lg-8 text-white align-self-center">
+              <div class="col-lg-8 text-white align-self-center" data-aos="fade-up" data-aos-delay="600">
                 <p>Get To Know</p>
                 <h3>About Me</h3>
                 <div>
@@ -158,7 +146,7 @@
           <h3 class="text-center">Skills</h3>
           <div class="row mt-4 justify-between">
             <div class="col-md-6 col-lg-4">
-              <div class="card mt-2">
+              <div class="card mt-2" data-aos="fade-left">
                 <h5 class="card-header">Technical Skills:</h5>
                 <div class="card-body">
                   <p>
@@ -194,7 +182,7 @@
               </div>
             </div>
             <div class="col-md-6 col-lg-4">
-              <div class="card mt-2">
+              <div class="card mt-2" data-aos="fade-right" >
                 <h5 class="card-header">Teamwork and Collaboration:</h5>
                 <div class="card-body">
                   <p>
@@ -210,7 +198,7 @@
               </div>
             </div>
             <div class="col-md-6 col-lg-4">
-              <div class="card mt-2">
+              <div class="card mt-2" data-aos="fade-left" data-aos-delay="600" >
                 <h5 class="card-header">Customer Service:</h5>
                 <div class="card-body">
                   <p>
@@ -244,7 +232,7 @@
               </div>
             </div>
             <div class="col-md-6 col-lg-4">
-              <div class="card mt-2">
+              <div class="card mt-2" data-aos="fade-right" data-aos-delay="600">
                 <h5 class="card-header">Decision-making and Logical Thinking:</h5>
                 <div class="card-body">
                   <p>
@@ -266,40 +254,38 @@
             <p class="text-center">My Recent</p>
             <h3 class="text-center">Projects</h3>
             <div class="row justify-between my-4">
-                <div class="col-md-6 col-lg-4">
-                    <div class="card mt-2 project-card">
-                        <img src="images/blog-dec.png" class="img-fluid" />
+                <div class="col-md-6 col-lg-4" data-aos="fade-up">
+                    <div class="card mt-2 project-card shadow">
+                        <img src="images/work1.png" class="img-fluid" />
                         <div class="px-4">
                             <h4>Description</h4>
                             <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe et itaque commodi aut sed dolores excepturi aspernatur quod blanditiis explicabo!</p>
-                            <a href="https://google.com" class="btn btn-secondary w-fit px-4 mb-4">Live Demo</a>
+                            <a href="https://dribbble.com/shots/23227147-Renting-App-Design-Concept" class="btn btn-secondary w-fit px-4 mb-4">Live Demo</a>
                         </div>
                         
                       
                     </div>
                   </div>
-                  <div class="col-md-6 col-lg-4">
+                  
+                  <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="600">
                     <div class="card mt-2 project-card shadow">
-                        <img src="images/blog-dec.png" class="img-fluid" />
+                        <img src="images/portfolio1.png" class="img-fluid" />
                         <div class="px-4">
                             <h4>Description</h4>
                             <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe et itaque commodi aut sed dolores excepturi aspernatur quod blanditiis explicabo!</p>
-                            <a href="https://google.com" class="btn btn-secondary w-fit px-4 mb-4">Live Demo</a>
+                            <a href="https://shop10.eb23.pl/" class="btn btn-secondary w-fit px-4 mb-4">Live Demo</a>
                         </div>
-                        
-                      
                     </div>
                   </div>
-                  <div class="col-md-6 col-lg-4">
+
+                  <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="800">
                     <div class="card mt-2 project-card shadow">
-                        <img src="images/blog-dec.png" class="img-fluid" />
+                        <img src="images/work2.png" class="img-fluid" />
                         <div class="px-4">
                             <h4>Description</h4>
                             <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe et itaque commodi aut sed dolores excepturi aspernatur quod blanditiis explicabo!</p>
-                            <a href="https://google.com" class="btn btn-secondary w-fit px-4 mb-4">Live Demo</a>
+                            <a href="https://dribbble.com/shots/20448957-NFT-Mobile-App" class="btn btn-secondary w-fit px-4 mb-4">Live Demo</a>
                         </div>
-                        
-                      
                     </div>
                   </div>
 
@@ -308,7 +294,7 @@
       </section>
       <!---Testimonials-->
       <section id="testimonials" class="bg-danger-subtle">
-        <p class="text-center text-danger-emphasis fw-bolder">Evidence From Our</p>
+        <p class="text-center text-danger-emphasis fw-bolder">Evidence From My</p>
         <h3 class="text-center text-danger fw-bold">Happy Clients</h3>
         <div
           id="carouselExampleCaptions"
@@ -393,12 +379,12 @@
       <!----Contact--->
       <section id="contact">
         <div class="container-lg">
-            <div class="text-center my-3">
+            <div class="text-center my-3" data-aos="fade-right">
                 <h2>Get in Touch</h2>
                 <p class="lead">Questions to ask? Fill out the form to contact me directly... </p>
             </div>
             <div class="row justify-content-center my-5">
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-up">
                     <div>
                         <form  action="https://getform.io/f/1904985a-675e-4bda-9aec-549daacee4a6"
                         method="POST">
@@ -441,8 +427,9 @@
                         <p class="fw-bold text-secondary">Shonibare <span class="special-red">Sulaimon</span></p>
                       </a>
                     <p class="h5">Contact</p>
-                    <p><span class="fw-bold">Address: </span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Eaque pariatur, qui quia quas ad laboriosam. </p>
-                    <p><span class="fw-bold">Phone: </span> +xxx - xxx - xxx/p>
+                    <p><span class="fw-bold">Address: </span>Adama Mickiewicza 64, 71-101 Szczecin, Poland. </p>
+                    <p><span class="fw-bold">Email: </span> Shonibaresulaimon29@gmail.com</p>
+                    <p><span class="fw-bold">Phone: </span> +4872386269</p>
                     <p><span class="fw-bold">Operating Hours: </span> 24/7 </p>
     
                     
@@ -493,5 +480,7 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <script src="./js/aos.js"></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
